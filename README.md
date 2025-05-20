@@ -1,6 +1,8 @@
 
 ### **README.md**
 
+#### ⚠️ Important note: This is a tiny project that was developed for learning and skill refining purposes, expect bugs and issues. I will work on refining and releasing it as a full python package when I have the time.
+
 # 🕵️ Hallucination Spotter
 
 A lightweight Python library for detecting hallucinations in LLM outputs without API calls.
