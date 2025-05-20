@@ -33,8 +33,8 @@ hspot "Some experts claim the event happened on February 30th" --threshold 0.7
 ```
 
 ## 📚 Documentation
-- [Detection Rules](hallucination-spotter/docs/detection_rules.md)  
-- [Advanced Configuration](hallucination-spotter/docs/quickstart.md)  
+- [Detection Rules](docs/detection_rules.md)  
+- [Advanced Configuration](docs/quickstart.md)  
 
 <sub>⚡ No API costs • 100% local execution • MIT Licensed</sub>
 
