@@ -36,29 +36,6 @@ hspot "Some experts claim the event happened on February 30th" --threshold 0.7
 
 <sub>⚡ No API costs • 100% local execution • MIT Licensed</sub>
 
-
-
-
-### **docs/detection_rules.md**
-```markdown
-# 🔬 Detection Rules
-
-## 1. Contradictions
-**Trigger**: Same number in conflicting contexts  
-**Example**:  
-`"The budget was $5M in 2022 and $5M in 2023"`  
-→ Flags `('5', 2)`  
-
-**Technical**:  
-- Regex: `\b\d+\b`  
-- Minimum repeats: 2 (configurable)  
-
-## 2. Vague Language
-**Patterns**:  
-```python
-r"\b(some\s+experts|studies\s+show|anonymous\s+sources|it\s+is\s+believed)\b"
-```
-
 **Examples**:  
 - `"Some studies suggest..."` → **Flagged**  
 - `"NASA confirmed..."` → **Ignored**  
@@ -81,18 +58,6 @@ r"\b(some\s+experts|studies\s+show|anonymous\s+sources|it\s+is\s+believed)\b"
 **Detection**: Hybrid of:  
 1. `datefinder` library  
 2. Custom day-month validation  
-
-### **docs/quickstart.md**
-```markdown
-# ⚡ Quick Configuration
-
-## 1. Custom Thresholds
-```python
-detector = HallucinationDetector(
-    contradiction_threshold=3,  # Require 3+ repeats
-    vague_patterns=[r"\b(rumors|allegedly)\b"]  # Add custom patterns
-)
-```
 
 ## 2. Batch Processing
 ```python
