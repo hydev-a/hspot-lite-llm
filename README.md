@@ -35,9 +35,9 @@ hspot "Some experts claim the event happened on February 30th" --threshold 0.7
 - [Advanced Configuration](docs/quickstart.md)  
 
 <sub>⚡ No API costs • 100% local execution • MIT Licensed</sub>
-```
 
----
+
+
 
 ### **docs/detection_rules.md**
 ```markdown
@@ -81,9 +81,6 @@ r"\b(some\s+experts|studies\s+show|anonymous\s+sources|it\s+is\s+believed)\b"
 **Detection**: Hybrid of:  
 1. `datefinder` library  
 2. Custom day-month validation  
-```
-
----
 
 ### **docs/quickstart.md**
 ```markdown
@@ -122,5 +119,5 @@ graph LR
 | 0.0-0.3    | Low        | Auto-approve |  
 | 0.3-0.7    | Medium     | Human review suggested |  
 | 0.7-1.0    | High       | Reject automatically |  
-```
+
 
