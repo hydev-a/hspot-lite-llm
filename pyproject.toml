@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Local hallucination detection for LLM outputs"
 readme = "README.md"
 authors = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "hydev", email = "hamidrezaywork@gmail.com"},
 ]
 requires-python = ">=3.8"
 license = "MIT"
@@ -24,7 +24,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/hallucination-spotter"
+Homepage = "https://github.com/hydev-a/hallucination-spotter"
 
 [tool.setuptools]
 packages = ["hallucinator"]
