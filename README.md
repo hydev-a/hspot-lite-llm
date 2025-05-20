@@ -1,6 +1,6 @@
 
 ### **README.md**
-```markdown
+
 # 🕵️ Hallucination Spotter
 
 A lightweight Python library for detecting hallucinations in LLM outputs without API calls.
