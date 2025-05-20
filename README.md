@@ -13,7 +13,9 @@ A lightweight Python library for detecting hallucinations in LLM outputs without
 
 ## 🚀 Quickstart
 ```bash
-pip install hallucination-spotter
+git clone https://github.com/your-username/hallucination-spotter.git
+cd hallucination-spotter
+pip install -e .
 python -m spacy download en_core_web_sm
 ```
 
