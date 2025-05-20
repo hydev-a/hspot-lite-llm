@@ -1,0 +1,28 @@
+# Development dependencies (for local setup)
+# Core testing
+pytest==8.1.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Code quality
+black==24.3.0
+flake8==7.0.0
+isort==5.13.2
+mypy==1.8.0
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.5.3
+
+# Packaging & distribution
+build==1.0.3
+twine==4.0.2
+wheel==0.42.0
+
+# Debugging
+ipython==8.22.2
+jupyter==1.0.0
+
+# Optional (for advanced benchmarking)
+memory-profiler==0.61.0
+line-profiler==4.1.2

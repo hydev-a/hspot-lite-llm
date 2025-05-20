@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.egg-info/
+.ipynb_checkpoints/
+
+# Build
+dist/
+build/
+*.egg
+*.whl
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# Windows
+Thumbs.db
+Desktop.ini
+[Dd]esktop.ini
+
+# IDE
+.vscode/
+.idea/
